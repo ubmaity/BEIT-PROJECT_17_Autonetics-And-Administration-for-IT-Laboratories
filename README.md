@@ -3,7 +3,7 @@ Autonetics-and-administration-for-IT-laboratories
 
 # Group Members
 - [Uddhabendra Maity](https://github.com/ubmaity) - 16104062
-- [Karthikeyan](https://github.com/karthik723) - 16104050
+- [Karthikeyan](https://github.com/karthikeyan23113) - 16104050
 - Atharv Shetty - 16104061
 
 # Brief Description
