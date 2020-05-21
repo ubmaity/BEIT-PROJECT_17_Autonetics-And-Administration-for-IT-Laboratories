@@ -1,0 +1,23 @@
+---
+- hosts: 127.0.0.1
+  user: ub25
+  become: yes
+  become_method: sudo
+  tasks:
+  
+  - name: 1. No Lock
+    command: gsettings set org.gnome.desktop.screensaver lock-enabled false
+    
+  - name: 2. Anti Display-off
+    command: gsettings set org.gnome.desktop.session idle-delay 0
+  
+
+
+
+
+
+
+
+
+
+

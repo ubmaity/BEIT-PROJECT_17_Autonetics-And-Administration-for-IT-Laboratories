@@ -1,0 +1,5 @@
+- hosts: all
+  tasks:
+    - copy:
+        src: /home/apsit/Videos/demo.yml
+        dest: /home/apsit/Music/

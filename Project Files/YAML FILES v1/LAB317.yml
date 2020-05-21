@@ -1,0 +1,16 @@
+---
+# Installing All Essential tools  for LAB 317
+- hosts: all
+  become: yes
+  become_method: sudo
+  tasks:
+
+  - name: Installing tools for LAB 317
+    apt:
+      name: "{{ item }}"
+    with_items:
+      - python3
+      - hping3
+      - dia
+      - tcpdump
+      - wireshark

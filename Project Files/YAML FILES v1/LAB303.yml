@@ -1,0 +1,15 @@
+---
+# Installing All Essential tools for lab 303 ( Faster Process )
+- hosts: all
+  become: yes
+  become_method: sudo
+  tasks:
+
+  - name: Installing all essential tools for LAB 303
+    apt:
+      name: "{{ item }}"
+    with_items:
+     - texmaker
+     - dia
+     - openssh-server
+     - wireshark 
