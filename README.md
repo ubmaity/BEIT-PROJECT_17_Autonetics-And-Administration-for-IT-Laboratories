@@ -4,7 +4,7 @@ Autonetics And Administration for IT Laboratories
 # Group Members
 - [Uddhabendra Maity](https://github.com/ubmaity) - 16104062
 - [Karthikeyan](https://github.com/karthikeyan2311) - 16104050
-- Atharv Shetty - 16104061
+- [Atharv Shetty](https://github.com/Atharv32) - 16104061
 
 # Brief Description
 In this modern era of Automation,it has been observed that many of the University
