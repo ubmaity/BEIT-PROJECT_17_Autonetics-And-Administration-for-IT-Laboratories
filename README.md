@@ -1,5 +1,5 @@
 # Project Title
-Autonetics-and-administration-for-IT-laboratories
+Autonetics And Administration for IT Laboratories
 
 # Group Members
 - [Uddhabendra Maity](https://github.com/ubmaity) - 16104062
