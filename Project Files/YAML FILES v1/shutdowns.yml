@@ -1,9 +1,0 @@
----
-- hosts: client
-  user: ub25
-  become: yes
-  become_method: sudo
-  tasks:
-  
-  - name: 1. remote shutdown
-    command: /sbin/shutdown -h now
