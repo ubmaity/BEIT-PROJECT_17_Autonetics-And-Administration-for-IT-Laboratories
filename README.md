@@ -1,5 +1,12 @@
-# BEIT-PROJECT_17_Autonetics-and-administration-for-IT-laboratories
+# Project Title
+Autonetics-and-administration-for-IT-laboratories
 
+# Group Members
+- [Uddhabendra Maity](https://github.com/ubmaity) 
+- [Karthikeyan](https://github.com/karthik723)
+- [Atharv Shetty]
+
+# Brief Description
 In this modern era of Automation,it has been observed that many of the University
 and college Labs do not have IT automation capabilities up to the current industrial modern
 standards.The latest technologies aren't being implemented in colleges and thus the students
