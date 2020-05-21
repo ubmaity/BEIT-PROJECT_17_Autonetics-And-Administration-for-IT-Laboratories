@@ -1,1 +1,0 @@
-This folder contains all the necessary files for hosting the online lab registeration process for students
