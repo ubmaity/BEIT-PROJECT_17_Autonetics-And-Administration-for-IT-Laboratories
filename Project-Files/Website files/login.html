@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<title>Lab Utilization</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="a1.PNG" sizes="100x100" />
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="font-awesome.min.css">
+<!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="util.css">
+	<link rel="stylesheet" type="text/css" href="main.css">
+<!--===============================================================================================-->
+
+
+<script type = "text/javascript">  
+function anim()
+{
+	var bar = document.getElementById('bar');
+	var circle = document.getElementById('circle');
+	var x = document.getElementsByClassName("hello");
+
+    setTimeout(function(){ bar.style.display = 'none'; circle.style.display = 'none'; }, 3800);
+	document.body.style.overflow = "auto";
+
+
+
+}
+
+
+function test(){
+
+ var x = document.getElementById("labs").value;
+ if(x==301)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='301.jpeg'/>";
+ }
+ else if(x==302)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='302.jpeg'/>";
+ }
+ else if(x==303)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='303.jpeg'/>";
+ }
+ //else if(x==308)
+ //{
+ // document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='308.jpeg'/>";
+// }
+ else if(x==309)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='309.jpeg'/>";
+ }
+ else if(x==313)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='313.jpeg'/>";
+ }
+ else if(x==317)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='317.jpeg'/>";
+ }
+ else if(x==405)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='405.jpeg'/>";
+ }
+ else if(x==406)
+ {
+  document.getElementById("demo").innerHTML = "<h2 align=center style='background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;color:#0044cc;'> Lab &nbsp Layout</h2> <img align='top' height='450' width='450' src='406.jpeg'/>";
+ }
+}
+	  
+function validate(){
+var username=document.form.username.value;
+var password=document.form.password.value;
+var batch=document.form.select1.value;
+var subject=document.form.select2.value;
+var room=document.form.select3.value;
+
+
+
+if (username==null || username=="")
+{  
+  alert("Please enter ID");  
+  return false;  
+  
+}
+
+else if(password==null || password=="")
+{  
+  alert("Please enter Password");  
+  return false;  
+  }  
+  
+else if (batch==-1)
+{  
+  alert("Please enter Batch");  
+  return false;  
+}
+
+
+
+else if (subject==-1)
+{  
+  alert("Please enter Subject");  
+  return false;  
+}
+
+else if (room==-1)
+{  
+  alert("Please enter Lab No.");  
+  return false;  
+}
+
+
+
+
+
+ 
+}
+
+      </script> 
+<style>
+    input::placeholder {
+        color:  #f5f5f0;
+    }
+</style>
+</head>
+<body>
+<h2 style="background-color:#b3ffff;font-family: verdana;text-align:center;font-size:40px;border-style: outset;color:#0044cc;"><b>A.P. SHAH INSTITUTE OF TECHNOLOGY </b></h2>
+	
+	<div class="limiter">
+		<div class="container-login100" style="background-image: url('apsit.jpg');">
+		 
+		<div id="demo" style="position: relative;float: right; padding-top: 50%; padding-top: 320px;" ></div>
+		
+		
+			<div class="wrap-login100 p-l-55 p-r-55 p-t-65 p-b-54" style="background:url(bg-01.jpg); background-repeat:initial;">
+			  <span class="login100-form-title p-b-49" style="color:#00fffc;">
+						Lab  Utilization  Record 
+			</span>
+			<div style="text-align:center;"><img src="apsit-title-logo.png" alt="abc" style="width: 159px;
+    height: 109px;"></div>
+				<form name="form" method="POST" action="https://homogenetic-gears.000webhostapp.com/check.php" onsubmit="return(validate());" class="login100-form validate-form">
+					<span class="login100-form-title p-b-49" style="color:#00fffc;">
+						Welcome to APSIT
+					</span>
+				
+					<table>
+					<tr>
+					<td>
+					<a href="https://homogenetic-gears.000webhostapp.com/admin_login.html" class="txt2">
+							<h3 align=center style="font-size:23px;">Admin Login</h3>
+						</a>
+					</td><td>&nbsp; </td><td>&nbsp; </td><td>&nbsp; </td><td>&nbsp; </td><td>&nbsp; </td><td>&nbsp;
+					</td><td>&nbsp; </td><td>&nbsp; </td><td>&nbsp; </td><td>&nbsp; </td>
+					<td>
+						<a href="https://homogenetic-gears.000webhostapp.com/faculty_login.html" class="txt2">
+							<h3 align=center style="font-size:23px;">Faculty Login</h3>
+						</a>
+					</td>
+						</tr>
+					</table><br>
+
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
+						<span class="label-input100" style="color:#00fffc;font-size:20px;">Username</span>
+						<input class="input100" type="text" name="username" placeholder="Type your username">
+						<span class="focus-input100" data-symbol="&#xf206;"></span>
+					</div>
+
+					<div class="wrap-input100 validate-input" data-validate="Password is required">
+						<span class="label-input100" style="color:#00fffc;font-size:20px;">Password</span>
+						<input class="input100" type="password" name="password" placeholder="Type your password">
+						<span class="focus-input100" data-symbol="&#xf190;"></span>
+					</div><br>
+					
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
+						<span class="label-input100" style="color:#00fffc;font-size:20px;">Batch</span>
+
+						<select class="input100" name="select1"> <option value="-1"> Select Batch  </option> <option value="B1"> B1 </option> <option value="B2"> B2 </option> 
+						<option value="B3"> B3 </option></select></td>
+						
+					</div>
+					
+					
+					
+					
+					
+					
+					
+					
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
+						<span class="label-input100" style="color:#00fffc;font-size:20px;">Subject</span>
+
+						<select class="input100" name="select2"> <option value="-1"> Select Subject  </option> <option value="NDL"> NDL </option> <option value="ASL"> ASL </option> <option value="ISL"> ISL </option> <option value="AL"> AL </option>
+						<option value="Absence due work"> Absence due work </option>
+						<option value="Project work"> Project work </option>
+						<option value="other"> Other </option></select></td>
+					
+					</div>
+					
+					
+					
+					<div class="wrap-input100 validate-input m-b-23" data-validate = "Username is required">
+						<span class="label-input100" style="color:#00fffc;font-size:20px;">Lab No.</span>
+
+						<select class="input100" id="labs" name="select3" onchange="test()"> <option value="-1"> Select Lab No. </option> <option value="301"> 301 </option> <option value="302"> 302 </option> <option value="303"> 303 </option><option value="308"> 308 </option> 
+						<option value="309"> 309 </option><option value="313"> 313 </option>
+						<option value="317"> 317 </option><option value="405"> 405 </option>
+						<option value="406"> 406 </option></select></td>
+						
+					</div>
+					<br><br>					
+					
+					
+						<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" onsubmit="return(validate());">
+								Login
+							</button>
+						</div>
+					</div>
+					
+
+					
+
+					
+						<br><br>
+
+						
+					<h3 align=center   style="font-family: verdana; font-size:18px;color:#fbff00;">Any issues/queries? &nbsp;<a href="https://docs.google.com/forms/d/e/1FAIpQLSeor5oCOZBVX8_2mnWNd7PESNJSNRn_cK5gLGbrLJyjuEE6Mw/viewform" style="font-family: verdana;font-size:13px;color:blue;">Click here</a></h3>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+	
+</body>
+</html>

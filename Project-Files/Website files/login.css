@@ -1,0 +1,193 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+
+
+
+.loader {
+	
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    border: 6px solid lightgrey;
+    border-radius: 100%;
+    border-top: 6px solid skyblue;
+    animation: spin 2s;
+}
+@keyframes spin {
+    from{
+        transform: rotate(0deg);
+}
+    to{
+        transform: rotate(360deg);
+}
+}
+
+.login-page {
+	
+  width: 360px;
+  padding-left: 9%;
+  padding-top: 2%;
+  
+  
+ 
+  
+}
+.form {
+ 
+  background:#85e085;
+/*background: linear-gradient(to right, rgba(129,208,223,1) 0%, rgba(82,255,82,1) 100%);  margin: 0 auto 100px;*/
+
+  width: 100%;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(1, 1, 1, 0.9), 0 5px 5px 0 rgba(1, 1, 1, 0.9);
+}
+.form input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+ 
+}
+
+button{
+	
+}
+
+
+
+.form .message {
+  margin: 15px 0 0;
+  color: #b3b3b3;
+  font-size: 12px;
+  
+}
+.form .message a {
+  color: #4CAF50;
+  text-decoration: none;
+}
+.form .register-form {
+  display: none;
+}
+.container {
+  position: relative;
+  z-index: 1;
+  max-width: 300px;
+  margin: 0 auto;
+}
+.container:before, .container:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container .info {
+  margin: 50px auto;
+  text-align: center;
+}
+.container .info h1 {
+  margin: 0 0 15px;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 300;
+  color: #1a1a1a;
+}
+.container .info span {
+  color: #4d4d4d;
+  font-size: 12px;
+}
+.container .info span a {
+  color: #000000;
+  text-decoration: none;
+}
+.container .info span .fa {
+  color: #EF3B3A;
+}
+
+body {
+	
+	
+   background: #009bff;
+  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+  background: -o-linear-gradient(left, #0072ff, #00c6ff);
+  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+  background: linear-gradient(left, #0072ff, #00c6ff);
+  
+  
+ 
+}
+
+
+html, body {
+	overflow: hidden;
+	height: 100vh;
+  background: #347fc3;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-image: url("apsit.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+     background-position: center;
+}
+
+.bar {
+  position: relative;
+  height: 5px;
+  width: 500px;
+  margin: 10 auto;
+  background: #fff;
+  margin-top: 250px;
+}
+
+.circle {
+  position: absolute;
+  top: -50px;
+  margin-left: -30px;
+  height: 60px;
+  width: 60px;
+  left: 0;
+  background:#ffff00;
+  border-radius: 30%;
+  -webkit-animation: move 4s infinite;
+}
+
+p {
+  position: absolute;
+  top: -35px;
+  right: -100px;
+  text-transform: uppercase;
+  color: #347fc3;
+  font-family: helvetica, sans-serif;
+  font-weight: bold;
+}
+
+@-webkit-keyframes move {
+  0% {left: 0;}
+  50% {left: 100%; -webkit-transform: rotate(450deg); width: 150px; height: 150px;}
+  75% {left: 100%; -webkit-transform: rotate(450deg); width: 150px; height: 150px;}
+  100 {right: 100%;}
+} 
+
+input::-webkit-input-placeholder { /* WebKit browsers */
+    color:    yellow;
+}
+input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    yellow;
+}
+input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    yellow;
+}
+input:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:   yellow;
+}

@@ -1,0 +1,16 @@
+---
+# Installing All Essential tools for LAB 302
+- hosts: all
+  become: yes
+  become_method: sudo
+  tasks:
+
+  - name: Installing all essential  tools for LAB 302
+    apt:
+      name: "{{ item }}"
+    with_items:
+      - openssh-server
+      - ns2
+      - nam
+      - wireshark
+      - gns3
